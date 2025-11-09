@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cf84f80-1599-419a-a134-f855ba8c9121" name="Changes" comment="" />
+    <list default="true" id="5cf84f80-1599-419a-a134-f855ba8c9121" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/ArmorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/ArmorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/BasicRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/BasicRobot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/PowerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/PowerType.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +33,12 @@
     &quot;assignee&quot;: &quot;prgoodwin&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/COMP301-S125/robot-decorator-starter&quot;,
-    &quot;accountId&quot;: &quot;103c78f0-1f45-4b0d-81aa-95a3d768850f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/COMP301-F25/a07-robot-anikash1232.git",
+    "accountId": "f85b3445-510b-4e06-8568-4fe0b9568646"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -65,10 +70,16 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/muhammadfouly/A06-Robot-Solution/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "google-java-format.settings"
+    "settings.editor.selected.configurable": "preferences.customizations",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -167,6 +178,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -175,8 +194,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744166226120</updated>
+      <workItem from="1762723731585" duration="3603000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

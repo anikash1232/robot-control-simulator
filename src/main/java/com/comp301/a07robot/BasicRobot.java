@@ -4,6 +4,16 @@ import javafx.scene.Parent;
 
 public class BasicRobot implements Robot {
 
+  private int health;
+  private int shield;
+  private int power;
+
+  public BasicRobot(){
+    this.health = 50;
+    this.shield = 0;
+    this.power = 10;
+  }
+
   @Override
   public String getDescription() {
     return "Basic Robot";
@@ -11,17 +21,17 @@ public class BasicRobot implements Robot {
 
   @Override
   public int getHealth() {
-    return -1;
+    return health;
   }
 
   @Override
   public int getShield() {
-    return -1;
+    return shield;
   }
 
   @Override
   public int getPower() {
-    return -1;
+    return power;
   }
 
   @Override
