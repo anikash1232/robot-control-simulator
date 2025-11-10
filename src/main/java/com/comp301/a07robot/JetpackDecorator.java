@@ -1,10 +1,10 @@
 package com.comp301.a07robot;
 
-public class JetpackArmorDecorator extends RobotDecorator{
+public class JetpackDecorator extends RobotDecorator{
 
     final ArmorType armorType;
 
-    public JetpackArmorDecorator(Robot decoratedRobot, ArmorType armorType){
+    public JetpackDecorator(Robot decoratedRobot, ArmorType armorType){
         super(decoratedRobot);
         this.armorType = armorType;
     }
