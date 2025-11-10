@@ -7,22 +7,21 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 
-public class LegsArmorDecorator extends RobotDecorator{
-    final ArmorType armorType;
+public class LegsArmorDecorator extends RobotDecorator {
+  final ArmorType armorType;
 
-    public LegsArmorDecorator(Robot decoratedRobot, ArmorType armorType){
-        super(decoratedRobot);
-        this.armorType = armorType;
-    }
+  public LegsArmorDecorator(Robot decoratedRobot, ArmorType armorType) {
+    super(decoratedRobot);
+    this.armorType = armorType;
+  }
 
+  @Override
+  public String getDescription() {
+    return super.getDescription() + ", " + armorType + " Legs Armor";
+  }
 
-    @Override
-    public String getDescription(){
-        return super.getDescription() + ", " + armorType + " Legs Armor";
-    }
-
-    @Override
-    public int getShield(){
-        return super.getShield() + armorType.getShieldUpgrade();
-    }
+  @Override
+  public int getShield() {
+    return super.getShield() + armorType.getShieldUpgrade();
+  }
 }

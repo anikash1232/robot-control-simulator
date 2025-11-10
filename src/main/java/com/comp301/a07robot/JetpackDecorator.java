@@ -7,22 +7,19 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 
-public class JetpackDecorator extends RobotDecorator{
+public class JetpackDecorator extends RobotDecorator {
 
+  public JetpackDecorator(Robot decoratedRobot) {
+    super(decoratedRobot);
+  }
 
-    public JetpackDecorator(Robot decoratedRobot){
-        super(decoratedRobot);
-    }
+  @Override
+  public String getDescription() {
+    return super.getDescription() + ", Jetpack";
+  }
 
-
-    @Override
-    public String getDescription(){
-        return super.getDescription() + ", Jetpack";
-    }
-
-    @Override
-    public int getShield(){
-        return super.getShield() + 50;
-    }
-
+  @Override
+  public int getShield() {
+    return super.getShield() + 50;
+  }
 }
