@@ -11,7 +11,7 @@ public class PowerUpDecorator extends RobotDecorator{
 
     @Override
     public String getDescription(){
-        return super.getDescription() + "," + powerType + "Power Up";
+        return super.getDescription() + ", " + powerType + " Power Up";
     }
 
     @Override
