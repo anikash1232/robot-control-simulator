@@ -19,4 +19,5 @@ public class JetpackDecorator extends RobotDecorator{
     public int getShield(){
         return super.getShield() + 50;
     }
+
 }
