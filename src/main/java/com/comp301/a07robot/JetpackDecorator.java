@@ -22,4 +22,12 @@ public class JetpackDecorator extends RobotDecorator {
   public int getShield() {
     return super.getShield() + 50;
   }
+
+  @Override
+  public Parent getVisual(){
+    StackPane pane = (StackPane) decoratedRobot.getVisual();
+    ImageView jet = new ImageView(new Image("jetpack.png"));
+    pane.getChildren().add(jet);
+    return pane;
+  }
 }

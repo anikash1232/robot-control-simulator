@@ -24,4 +24,30 @@ public class LegsArmorDecorator extends RobotDecorator {
   public int getShield() {
     return super.getShield() + armorType.getShieldUpgrade();
   }
+
+  @Override
+  public Parent getVisual() {
+    StackPane pane = (StackPane) decoratedRobot.getVisual();
+    String fileName;
+
+    if (armorType == ArmorType.BRONZE){
+      fileName = "legs.png";
+    }
+    else if(armorType == ArmorType.IRON){
+      fileName = "legs_iron.png";
+    }
+    else if(armorType == ArmorType.GOLD){
+      fileName = "legs_gold.png";
+    }
+    else if(armorType == ArmorType.DIAMOND){
+      fileName = "legs_diamond.png";
+    }
+    else{
+      fileName = "legs.png";
+    }
+
+    ImageView legs = new ImageView(new Image(fileName));
+    pane.getChildren().add(legs);
+    return pane;
+  }
 }

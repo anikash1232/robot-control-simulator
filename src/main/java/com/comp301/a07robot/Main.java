@@ -5,8 +5,18 @@ import static javafx.application.Application.launch;
 public class Main {
 
   public static Robot build() {
-    Robot robot = new BasicRobot();
-    return robot;
+    Robot ani = new BasicRobot();
+
+
+    ani = new ArmsArmorDecorator(ani, ArmorType.DIAMOND);
+    ani = new HeadArmorDecorator(ani, ArmorType.DIAMOND);
+    ani = new LegsArmorDecorator(ani, ArmorType.BRONZE);
+    ani = new TorsoArmorDecorator(ani, ArmorType.BRONZE);
+    ani = new JetpackDecorator(ani);
+    ani = new PowerUpDecorator(ani, PowerType.ENCHANTER);
+    ani = new PowerUpDecorator(ani, PowerType.SORCERER);
+
+    return ani;
   }
 
   public static void main(String[] args) {

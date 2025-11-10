@@ -24,4 +24,30 @@ public class HeadArmorDecorator extends RobotDecorator {
   public int getShield() {
     return super.getShield() + armorType.getShieldUpgrade();
   }
+
+  @Override
+  public Parent getVisual() {
+    StackPane pane = (StackPane) decoratedRobot.getVisual();
+    String fileName;
+
+    if (armorType == ArmorType.BRONZE){
+      fileName = "head.png";
+    }
+    else if(armorType == ArmorType.IRON){
+      fileName = "head_iron.png";
+    }
+    else if(armorType == ArmorType.GOLD){
+      fileName = "head_gold.png";
+    }
+    else if(armorType == ArmorType.DIAMOND){
+      fileName = "head_diamond.png";
+    }
+    else{
+      fileName = "head.png";
+    }
+
+    ImageView head = new ImageView(new Image(fileName));
+    pane.getChildren().add(head);
+    return pane;
+  }
 }

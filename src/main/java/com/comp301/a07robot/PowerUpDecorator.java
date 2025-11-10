@@ -29,4 +29,26 @@ public class PowerUpDecorator extends RobotDecorator {
   public int getPower() {
     return super.getPower() * (powerType.getMultiplier() * 10);
   }
+
+  @Override
+  public Parent getVisual() {
+    StackPane pane = (StackPane) decoratedRobot.getVisual();
+    String fileName = "";
+
+    if (powerType == PowerType.APPRENTICE){
+      fileName = "yellow_power.png";
+    }
+    else if(powerType == PowerType.ENCHANTER){
+      fileName = "red_power.png";
+    }
+    else if(powerType == PowerType.SORCERER){
+      fileName = "blue_power.png";
+    }
+
+    ImageView power = new ImageView(new Image(fileName));
+    power.setFitWidth(600);
+    power.setFitHeight(700);
+    pane.getChildren().addFirst(power);
+    return pane;
+  }
 }
