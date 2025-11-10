@@ -4,26 +4,30 @@ import javafx.scene.Parent;
 
 public abstract class RobotDecorator implements Robot {
 
-  public RobotDecorator(Robot decoratedRobot) {}
+  private Robot decoratedRobot;
+
+  public RobotDecorator(Robot decoratedRobot) {
+    this.decoratedRobot = decoratedRobot;
+  }
 
   @Override
   public String getDescription() {
-    return "";
+    return decoratedRobot.getDescription();
   }
 
   @Override
   public int getHealth() {
-    return -1;
+    return decoratedRobot.getHealth();
   }
 
   @Override
   public int getShield() {
-    return -1;
+    return decoratedRobot.getShield();
   }
 
   @Override
   public int getPower() {
-    return -1;
+    return decoratedRobot.getPower();
   }
 
   @Override
