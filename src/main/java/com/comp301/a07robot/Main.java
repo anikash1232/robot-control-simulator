@@ -7,7 +7,6 @@ public class Main {
   public static Robot build() {
     Robot ani = new BasicRobot();
 
-
     ani = new ArmsArmorDecorator(ani, ArmorType.DIAMOND);
     ani = new HeadArmorDecorator(ani, ArmorType.DIAMOND);
     ani = new LegsArmorDecorator(ani, ArmorType.BRONZE);
