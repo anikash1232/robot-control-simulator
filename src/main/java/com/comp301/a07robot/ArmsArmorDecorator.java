@@ -11,7 +11,7 @@ public class ArmsArmorDecorator extends RobotDecorator{
 
     @Override
     public String getDescription(){
-        return super.getDescription() + "," + armorType + "Arms Armor";
+        return super.getDescription() + ", " + armorType + " Arms Armor";
     }
 
     @Override

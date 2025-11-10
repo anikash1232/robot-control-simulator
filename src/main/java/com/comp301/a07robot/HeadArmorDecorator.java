@@ -11,7 +11,7 @@ public class HeadArmorDecorator extends RobotDecorator{
 
     @Override
     public String getDescription(){
-        return super.getDescription() + "," + armorType + "Head Armor";
+        return super.getDescription() + ", " + armorType + " Head Armor";
     }
 
     @Override

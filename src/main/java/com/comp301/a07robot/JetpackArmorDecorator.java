@@ -12,7 +12,7 @@ public class JetpackArmorDecorator extends RobotDecorator{
 
     @Override
     public String getDescription(){
-        return super.getDescription() + "," + armorType + "Jetpack Armor";
+        return super.getDescription() + ", " + armorType + " Jetpack Armor";
     }
 
     @Override
