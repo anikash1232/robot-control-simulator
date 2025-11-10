@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cf84f80-1599-419a-a134-f855ba8c9121" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/ArmsArmorDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/ArmsArmorDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/BasicRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/BasicRobot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/HeadArmorDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/HeadArmorDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/JetpackDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/JetpackDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/LegsArmorDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/LegsArmorDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/PowerUpDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/PowerUpDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/RobotDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comp301/a07robot/RobotDecorator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +82,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.customizations",
+    "settings.editor.selected.configurable": "google-java-format.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -191,7 +198,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744166226120</updated>
-      <workItem from="1762723731585" duration="12501000" />
+      <workItem from="1762723731585" duration="14925000" />
     </task>
     <servers />
   </component>

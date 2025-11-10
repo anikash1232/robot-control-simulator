@@ -1,5 +1,12 @@
 package com.comp301.a07robot;
 
+import java.awt.*;
+import javafx.scene.Parent;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.StackPane;
+
 public class JetpackDecorator extends RobotDecorator{
 
 
