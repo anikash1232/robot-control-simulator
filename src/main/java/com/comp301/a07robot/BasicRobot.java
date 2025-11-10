@@ -1,6 +1,5 @@
 package com.comp301.a07robot;
 
-
 import java.awt.*;
 import javafx.scene.Parent;
 import javafx.scene.image.Image;
@@ -13,7 +12,7 @@ public class BasicRobot implements Robot {
   private int shield;
   private int power;
 
-  public BasicRobot(){
+  public BasicRobot() {
     this.health = 50;
     this.shield = 0;
     this.power = 10;
@@ -39,14 +38,13 @@ public class BasicRobot implements Robot {
     return power;
   }
 
-
   public Parent getHealthBar() {
 
     ImageView heart = new ImageView(new Image("health.png"));
     ImageView halfHeart = new ImageView(new Image("health_half.png"));
 
-    int hearts = getHealth()/10;
-    int halfHearts = getHealth()%10;
+    int hearts = getHealth() / 10;
+    int halfHearts = getHealth() % 10;
     HBox healthBar = new HBox();
 
     for (int i = 0; i < hearts; i++) {
@@ -62,16 +60,14 @@ public class BasicRobot implements Robot {
     }
 
     return healthBar;
-
   }
-
 
   public Parent getShieldBar() {
     ImageView shieldpic = new ImageView(new Image("shield.png"));
     ImageView halfshieldpic = new ImageView(new Image("shield_half.png"));
 
-    int shield = getShield()/10;
-    int halfShield = getShield()%10;
+    int shield = getShield() / 10;
+    int halfShield = getShield() % 10;
     HBox shieldBar = new HBox();
 
     for (int i = 0; i < shield; i++) {
@@ -92,6 +88,4 @@ public class BasicRobot implements Robot {
   public Parent getVisual() {
     return null;
   }
-
-
 }
