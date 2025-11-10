@@ -28,19 +28,15 @@ public class TorsoArmorDecorator extends RobotDecorator {
     StackPane pane = (StackPane) decoratedRobot.getVisual();
     String fileName;
 
-    if (armorType == ArmorType.BRONZE){
+    if (armorType == ArmorType.BRONZE) {
       fileName = "torso.png";
-    }
-    else if(armorType == ArmorType.IRON){
+    } else if (armorType == ArmorType.IRON) {
       fileName = "torso_iron.png";
-    }
-    else if(armorType == ArmorType.GOLD){
+    } else if (armorType == ArmorType.GOLD) {
       fileName = "torso_gold.png";
-    }
-    else if(armorType == ArmorType.DIAMOND){
+    } else if (armorType == ArmorType.DIAMOND) {
       fileName = "torso_diamond.png";
-    }
-    else{
+    } else {
       fileName = "torso.png";
     }
 

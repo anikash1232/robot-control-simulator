@@ -24,7 +24,7 @@ public class JetpackDecorator extends RobotDecorator {
   }
 
   @Override
-  public Parent getVisual(){
+  public Parent getVisual() {
     StackPane pane = (StackPane) decoratedRobot.getVisual();
     ImageView jet = new ImageView(new Image("jetpack.png"));
     pane.getChildren().add(jet);

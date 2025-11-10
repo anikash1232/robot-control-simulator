@@ -30,19 +30,15 @@ public class LegsArmorDecorator extends RobotDecorator {
     StackPane pane = (StackPane) decoratedRobot.getVisual();
     String fileName;
 
-    if (armorType == ArmorType.BRONZE){
+    if (armorType == ArmorType.BRONZE) {
       fileName = "legs.png";
-    }
-    else if(armorType == ArmorType.IRON){
+    } else if (armorType == ArmorType.IRON) {
       fileName = "legs_iron.png";
-    }
-    else if(armorType == ArmorType.GOLD){
+    } else if (armorType == ArmorType.GOLD) {
       fileName = "legs_gold.png";
-    }
-    else if(armorType == ArmorType.DIAMOND){
+    } else if (armorType == ArmorType.DIAMOND) {
       fileName = "legs_diamond.png";
-    }
-    else{
+    } else {
       fileName = "legs.png";
     }
 

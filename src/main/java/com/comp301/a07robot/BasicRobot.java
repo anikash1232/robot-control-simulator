@@ -44,7 +44,6 @@ public class BasicRobot implements Robot {
     int hearts = health / 10;
     int halfHearts = health % 10;
 
-
     for (int i = 0; i < hearts; i++) {
       ImageView heart = new ImageView(new Image("health.png"));
       heart.setFitWidth(30);
@@ -66,11 +65,8 @@ public class BasicRobot implements Robot {
 
     HBox shieldBar = new HBox();
 
-
-
     int totalshield = shield / 10;
     int halfShield = shield % 10;
-
 
     for (int i = 0; i < totalshield; i++) {
       ImageView shieldpic = new ImageView(new Image("bar.png"));
