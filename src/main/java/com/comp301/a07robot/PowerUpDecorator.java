@@ -1,6 +1,5 @@
 package com.comp301.a07robot;
 
-
 import javafx.scene.Parent;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -34,13 +33,11 @@ public class PowerUpDecorator extends RobotDecorator {
     StackPane pane = (StackPane) decoratedRobot.getVisual();
     String fileName = "";
 
-    if (powerType == PowerType.APPRENTICE){
+    if (powerType == PowerType.APPRENTICE) {
       fileName = "yellow_power.png";
-    }
-    else if(powerType == PowerType.ENCHANTER){
+    } else if (powerType == PowerType.ENCHANTER) {
       fileName = "red_power.png";
-    }
-    else if(powerType == PowerType.SORCERER){
+    } else if (powerType == PowerType.SORCERER) {
       fileName = "blue_power.png";
     }
 

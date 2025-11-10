@@ -8,9 +8,9 @@ import javafx.scene.layout.StackPane;
 
 public class BasicRobot implements Robot {
 
-  private int health;
-  private int shield;
-  private int power;
+  private final int health;
+  private final int shield;
+  private final int power;
 
   public BasicRobot() {
     this.health = 50;

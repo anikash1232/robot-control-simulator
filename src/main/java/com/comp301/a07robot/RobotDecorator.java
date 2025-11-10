@@ -1,6 +1,5 @@
 package com.comp301.a07robot;
 
-
 import javafx.scene.Parent;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -41,7 +40,6 @@ public abstract class RobotDecorator implements Robot {
     int hearts = getHealth() / 10;
     int halfHearts = getHealth() % 10;
 
-
     for (int i = 0; i < hearts; i++) {
       ImageView heart = new ImageView(new Image("health.png"));
       heart.setFitWidth(30);
@@ -59,16 +57,12 @@ public abstract class RobotDecorator implements Robot {
     return healthBar;
   }
 
-
   @Override
   public Parent getShieldBar() {
     HBox shieldBar = new HBox();
 
-
-
     int totalshield = getShield() / 10;
     int halfShield = getShield() % 10;
-
 
     for (int i = 0; i < totalshield; i++) {
       ImageView shieldpic = new ImageView(new Image("bar.png"));
@@ -85,7 +79,6 @@ public abstract class RobotDecorator implements Robot {
     }
     return shieldBar;
   }
-
 
   @Override
   public Parent getVisual() {
